@@ -13,6 +13,8 @@
         <module>CartService</module>
         <module>CatalogService</module>
         <module>OrderService</module>
+        <module>BenchmarkingService</module>
+        <module>BenchmarkingService</module>
     </modules>
 
     
