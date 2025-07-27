@@ -1,0 +1,42 @@
+{
+    "signin": "Sign In",
+    "signout": "Sign Out",
+    "userinfo": "My Account",
+    "search": "search",
+
+    "fishdesc": "Saltwater, Freshwater",
+    "dogdesc": "Various Breeds",
+    "catdesc": "Various Breeds, Exotic Varieties",
+    "reptiledesc": "Lizards, Turtles, Snakes",
+    "birddesc": "Exotic Varieties",
+
+    "gotoMain": "Return to Main Menu",
+
+    "userinfotitle": "User Information",
+    "userid": "User ID",
+    "userpw": "New Password",
+    "userpw2": "Repeat Password",
+    "userinfosubmit": "Save Account Information",
+    "profiletitle": "Profile Information",
+    "firstname": "First Name",
+    "lastname": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address1": "Address1",
+    "address2": "Address2",
+    "city": "City",
+    "state": "State",
+    "zip": "Zip",
+    "country": "Country",
+    "lang": "Language Preference",
+    "favcategory": "Favourite Category",
+    "mylist": "Enable MyList",
+    "mybanner": "Enable MyBanner",
+
+    "logindesc": "Please enter your username and password.",
+    "username": "Username",
+    "password": "Password",
+    "login": "Login",
+    "registerdesc": "Need a username and password?",
+    "register": "Register Now!"
+}

@@ -1,0 +1,42 @@
+{
+    "signin": "로그인",
+    "signout": "로그아웃",
+    "userinfo": "내 정보",
+    "search": "검색",
+
+    "fishdesc": "해수어, 담수어",
+    "dogdesc": "다양한 품종",
+    "catdesc": "다양한 품종과 이국적인 품종",
+    "reptiledesc": "도마뱀, 거북이, 뱀",
+    "birddesc": "이국적인 품종",
+
+    "gotoMain": "홈으로",
+
+    "userinfotitle": "사용자 정보",
+    "userid": "아이디",
+    "userpw": "새 비밀번호",
+    "userpw2": "새 비밀번호 확인",
+    "userinfosubmit": "회원가입",
+    "profiletitle": "사용자 세부 정보",
+    "firstname": "이름",
+    "lastname": "성",
+    "email": "이메일",
+    "phone": "핸드폰",
+    "address1": "상세 주소",
+    "address2": "주소",
+    "city": "시/군/구",
+    "state": "도/시",
+    "zip": "우편번호",
+    "country": "국가",
+    "lang": "선호 언어",
+    "favcategory": "선호 카테고리",
+    "mylist": "나만의 리스트",
+    "mybanner": "나만의 배너",
+
+    "logindesc": "아이디와 비밀번호를 입력해주세요.",
+    "username": "사용자 이름",
+    "password": "비밀번호",
+    "login": "로그인",
+    "registerdesc": "아이디 혹은 비밀번호를 잊어버리셨나요?",
+    "register": "회원가입"
+}
