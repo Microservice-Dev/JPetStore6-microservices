@@ -11,3 +11,6 @@ export const DOGS = '/category?categoryId=DOGS';
 export const REPTILES = '/category?categoryId=REPTILES';
 export const CATS = '/category?categoryId=CATS';
 export const BIRDS = '/category?categoryId=BIRDS';
+
+export const GOTO_PRODUCT = '/product?productId='
+export const GOTO_ITEM = '/item?itemId='

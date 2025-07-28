@@ -38,5 +38,25 @@
     "password": "Password",
     "login": "Login",
     "registerdesc": "Need a username and password?",
-    "register": "Register Now!"
+    "register": "Register Now!",
+
+    "addtocart": "Add To Cart",
+
+    "productid": "Product ID",
+    "productname": "Name",
+    "itemid": "Item ID",
+    "productdesc": "Description",
+    "listprice": "List Price",
+
+    "instock": "In Stock?",
+    "quantity": "Quantity",
+    "totalcost": "Total Cost",
+
+    "cartempty": "Your cart is empty.",
+    "removeitem": "Remove",
+    "updatecart": "Update Cart",
+    "checkout": "Proceed to Checkout",
+
+    "mylisttitle": "Pet Favorites",
+    "mylistcmt": "Shop for more of your favorite pets here"
 }

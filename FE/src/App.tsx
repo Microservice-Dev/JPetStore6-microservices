@@ -9,6 +9,9 @@ import AccountInfo from '@/pages/AccountInfo';
 import Login from '@/pages/Login';
 
 import './styles/jpetstore.css';
+import Product from '@/pages/Product';
+import Item from '@/pages/Item';
+import Cart from '@/pages/Cart';
 
 function App() {
   return (
@@ -21,11 +24,16 @@ function App() {
 
           {/* 카테고리 페이지 */}
           <Route path="/category" element={<Category />} />
+          <Route path="/product" element={<Product />} />
+          <Route path="/item" element={<Item />} />
 
           {/* 사용자 관련 페이지. */}
           <Route path="/newAccount" element={<AccountInfo mode="new" />} />
           <Route path="/editAccount" element={<AccountInfo mode="edit" />} />
           <Route path="/signin" element={<Login />} />
+
+          {/* 쇼핑 카트 페이지. */}
+          <Route path="cart" element={<Cart />} />
         </Routes>
       </BrowserRouter>
       <IncludeBottom></IncludeBottom>

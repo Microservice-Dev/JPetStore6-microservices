@@ -38,5 +38,25 @@
     "password": "비밀번호",
     "login": "로그인",
     "registerdesc": "아이디 혹은 비밀번호를 잊어버리셨나요?",
-    "register": "회원가입"
+    "register": "회원가입",
+
+    "addtocart": "장바구니 담기",
+
+    "productid": "Product ID",
+    "productname": "이름",
+    "itemid": "Item ID",
+    "productdesc": "설명",
+    "listprice": "가격",
+
+    "instock": "재고",
+    "quantity": "수량",
+    "totalcost": "총계",
+
+    "cartempty": "카트가 비었습니다.",
+    "removeitem": "제거",
+    "updatecart": "카트 업데이트",
+    "checkout": "주문하기",
+
+    "mylisttitle": "즐겨찾기",
+    "mylistcmt": "당신을 위한 제품들"
 }
