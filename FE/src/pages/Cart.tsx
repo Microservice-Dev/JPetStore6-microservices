@@ -1,8 +1,9 @@
 import BackLink from '@/components/BackLink';
 import { useTranslation } from 'react-i18next';
-import { GOTO_ITEM } from '@/const';
+// import { GOTO_ITEM } from '@/const'; // TO DO: 추후 리스트가 보여질 때 사용 예정.
 import React from 'react';
 import IncludeMyList from '@/components/InlcudMyList';
+import { GOTO_ORDER } from '@/const';
 
 const Cart: React.FC = () => {
     const { t } = useTranslation();
@@ -14,7 +15,7 @@ const Cart: React.FC = () => {
             <div id="Catalog">
                 <div id="Cart">
 
-                <h2>Shopping Cart</h2>
+                <h2>{t('shoppingcart')}</h2>
                     <form action="/cart/update" method="post">
                         <table>
                         <tbody>
@@ -62,7 +63,7 @@ const Cart: React.FC = () => {
                         </table>
                     </form>
 
-                    <a className="Button" href="/order/newOrderForm">{t('checkout')}</a>
+                    <a className="Button" href={GOTO_ORDER}>{t('checkout')}</a>
                 </div>
 
                 <div id="MyList">

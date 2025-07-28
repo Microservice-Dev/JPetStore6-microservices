@@ -40,6 +40,7 @@
     "registerdesc": "아이디 혹은 비밀번호를 잊어버리셨나요?",
     "register": "회원가입",
 
+    "shoppingcart": "장바구니",
     "addtocart": "장바구니 담기",
 
     "productid": "Product ID",
@@ -58,5 +59,18 @@
     "checkout": "주문하기",
 
     "mylisttitle": "즐겨찾기",
-    "mylistcmt": "당신을 위한 제품들"
+    "mylistcmt": "당신을 위한 제품들",
+
+    "paymentdetails": "결제 수단 상세 정보",
+    "cardtype": "신용카드 종류",
+    "cardnumber": "신용카드 번호",
+    "expirydate": "만료일자 (MM/YYYY)",
+    "billingaddress": "결제 주소",
+    "continue": "계속",
+    "shipdiff": "결제 주소와 다른 배송지 주소...",
+    "shippingaddress": "배송지 주소",
+
+    "order": "주문",
+    "orderdate": "주문 시각",
+    "confirmordercmt": "아래 정보를 확인한 후 계속하기를 누르세요..."
 }

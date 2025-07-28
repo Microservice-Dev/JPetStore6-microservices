@@ -14,3 +14,7 @@ export const BIRDS = '/category?categoryId=BIRDS';
 
 export const GOTO_PRODUCT = '/product?productId='
 export const GOTO_ITEM = '/item?itemId='
+
+export const GOTO_ORDER = '/newOrder';
+export const GOTO_SHIP = '/shipOrder';
+export const GOTO_CONFIRM = '/confirmOrder';

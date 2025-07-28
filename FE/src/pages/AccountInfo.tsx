@@ -10,6 +10,8 @@ interface ModeProps {
 const NewAccount: React.FC<ModeProps> = ({ mode }) => {
     const { t } = useTranslation();
 
+    const userId = '';
+    const password = '';
     const [form, setForm] = useState<AccountFieldsForm>(() => {
         if (mode === 'new') {
             return {
@@ -50,7 +52,6 @@ const NewAccount: React.FC<ModeProps> = ({ mode }) => {
         }
     });
     const handleFormChange = (updateForm: AccountFieldsForm) => {
-        console.log(updateForm);
         setForm(updateForm);
     }
 
@@ -65,7 +66,7 @@ const NewAccount: React.FC<ModeProps> = ({ mode }) => {
                     <tbody>
                         <tr>
                             <td>{t('userid')}</td>
-                            <td><input type="text" name="username" /></td>
+                            <td><input type="text" name="username" readOnly={userId !== ''} value={userId} /></td>
                         </tr>
                         <tr>
                             <td>{t('userpw')}</td>

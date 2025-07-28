@@ -12,6 +12,8 @@ import './styles/jpetstore.css';
 import Product from '@/pages/Product';
 import Item from '@/pages/Item';
 import Cart from '@/pages/Cart';
+import Order from '@/pages/Order';
+import ConfirmOrder from '@/pages/ConfirmOrder';
 
 function App() {
   return (
@@ -33,7 +35,12 @@ function App() {
           <Route path="/signin" element={<Login />} />
 
           {/* 쇼핑 카트 페이지. */}
-          <Route path="cart" element={<Cart />} />
+          <Route path="/cart" element={<Cart />} />
+
+          {/* 주문 관련 페이지 */}
+          <Route path="/newOrder" element={<Order mode="payment" />} />
+          <Route path="/shipOrder" element={<Order mode="ship" />} />
+          <Route path="/confirmOrder" element={<ConfirmOrder />} />
         </Routes>
       </BrowserRouter>
       <IncludeBottom></IncludeBottom>

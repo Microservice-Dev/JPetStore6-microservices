@@ -1,11 +1,12 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-import type { ReceiveForm } from '@/types/Account';
+import type { onReceiveAccountProps } from '@/types/Account';
+import type { ChangeAndSelectEvent } from '@/types/Common';
 
-const IncludeAccountFields: React.FC<ReceiveForm> = ({ form, onChange }) => {
+const IncludeAccountFields: React.FC<onReceiveAccountProps> = ({ form, onChange }) => {
     const { t } = useTranslation();
-    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+    const handleChange = (e: ChangeAndSelectEvent) => {
         const { name, type, value } = e.target;
 
         if (type === 'checkbox') {

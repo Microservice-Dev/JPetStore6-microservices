@@ -40,6 +40,7 @@
     "registerdesc": "Need a username and password?",
     "register": "Register Now!",
 
+    "shoppingcart": "Shopping Cart",
     "addtocart": "Add To Cart",
 
     "productid": "Product ID",
@@ -58,5 +59,18 @@
     "checkout": "Proceed to Checkout",
 
     "mylisttitle": "Pet Favorites",
-    "mylistcmt": "Shop for more of your favorite pets here"
+    "mylistcmt": "Shop for more of your favorite pets here",
+
+    "paymentdetails": "Payment Details",
+    "cardtype": "Card Type",
+    "cardnumber": "Card Numbers",
+    "expirydate": "Expiry Date (MM/YYYY)",
+    "billingaddress": "Billing Address",
+    "continue": "Continue",
+    "shipdiff": "Ship to different address...",
+    "shippingaddress": "Shipping Address",
+
+    "order": "Order",
+    "orderdate": "Order Date",
+    "confirmordercmt": "Please confirm the information below and then press continue..."
 }

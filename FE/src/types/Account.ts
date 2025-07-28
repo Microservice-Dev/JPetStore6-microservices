@@ -15,7 +15,7 @@ export interface AccountFieldsForm {
     mybanner: boolean
 }
 
-export interface ReceiveForm {
+export interface onReceiveAccountProps {
     form: AccountFieldsForm,
     onChange: (updated: AccountFieldsForm) => void;
 }
