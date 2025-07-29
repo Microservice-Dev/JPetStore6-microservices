@@ -37,7 +37,7 @@ const Cart: React.FC = () => {
 
 
                             {/* TO DO: Item 여러 개 담겨있으면, 리스트 순회를 통해 보여줄 것.
-                                <tr>
+                            <tr>
                                 <td>
                                     <a href={GOTO_ITEM}>Item ID</a>
                                 </td>
@@ -51,9 +51,9 @@ const Cart: React.FC = () => {
                                 <td>
                                     <a className="Button">{t('removeitem')}</a>
                                 </td>
-
                             </tr>
 
+                            이 아래는 반복문 포함 아님.
                             <tr>
                                 <td colSpan={7}>Sub Total: $totalPrice
                                     <input type="submit" name="updateCartQuantities" value={t('updatecart')} />

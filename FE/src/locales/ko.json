@@ -43,19 +43,20 @@
     "shoppingcart": "장바구니",
     "addtocart": "장바구니 담기",
 
-    "productid": "Product ID",
+    "productid": "품목 아이디",
     "productname": "이름",
-    "itemid": "Item ID",
+    "itemid": "상품 아이디",
     "productdesc": "설명",
     "listprice": "가격",
 
     "instock": "재고",
     "quantity": "수량",
-    "totalcost": "총계",
+    "totalcost": "합계",
 
     "cartempty": "카트가 비었습니다.",
     "removeitem": "제거",
     "updatecart": "카트 업데이트",
+    "subtotal": "소계",
     "checkout": "주문하기",
 
     "mylisttitle": "즐겨찾기",
@@ -72,5 +73,11 @@
 
     "order": "주문",
     "orderdate": "주문 시각",
-    "confirmordercmt": "아래 정보를 확인한 후 계속하기를 누르세요..."
+    "confirmordercmt": "아래 정보를 확인한 후 계속하기를 누르세요...",
+    "confirm": "확인",
+
+    "myorder": "내 주문",
+    "orderid": "주문 아이디",
+    "date": "날짜",
+    "totalprice": "총액"
 }

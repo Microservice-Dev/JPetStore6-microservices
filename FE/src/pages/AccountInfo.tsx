@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import IncludeAccountFields from '@/components/IncludeAccountFields';
 import type { AccountFieldsForm } from '@/types/Account';
+import { GOTO_ORDER_LIST } from '@/const';
 
 interface ModeProps {
     mode: 'new' | 'edit';
@@ -11,7 +12,7 @@ const NewAccount: React.FC<ModeProps> = ({ mode }) => {
     const { t } = useTranslation();
 
     const userId = '';
-    const password = '';
+    // const password = ''; // 추후 사용자 정보를 받아오게 되면 사용 예정.
     const [form, setForm] = useState<AccountFieldsForm>(() => {
         if (mode === 'new') {
             return {
@@ -83,6 +84,7 @@ const NewAccount: React.FC<ModeProps> = ({ mode }) => {
 
                     <input type="submit" value={t('userinfosubmit')} />
                 </form>
+                {mode === 'edit' && <a href={GOTO_ORDER_LIST}>My Orders</a>}
             </div>
         </div>
     );

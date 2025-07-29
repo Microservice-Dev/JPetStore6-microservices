@@ -13,7 +13,7 @@ import Product from '@/pages/Product';
 import Item from '@/pages/Item';
 import Cart from '@/pages/Cart';
 import Order from '@/pages/Order';
-import ConfirmOrder from '@/pages/ConfirmOrder';
+import ListOrder from '@/pages/ListOrder';
 
 function App() {
   return (
@@ -40,7 +40,9 @@ function App() {
           {/* 주문 관련 페이지 */}
           <Route path="/newOrder" element={<Order mode="payment" />} />
           <Route path="/shipOrder" element={<Order mode="ship" />} />
-          <Route path="/confirmOrder" element={<ConfirmOrder />} />
+          <Route path="/confirmOrder" element={<Order mode="confirm" />} />
+          <Route path="/orderList" element={<ListOrder />} />
+          <Route path="/viewOrder" element={<Order mode="view" />} />
         </Routes>
       </BrowserRouter>
       <IncludeBottom></IncludeBottom>

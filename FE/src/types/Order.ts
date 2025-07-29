@@ -1,16 +1,17 @@
 export interface OrderFieldsForm {
-    firstName: string,
-    lastName: string,
-    address1: string,
-    address2: string,
-    city: string,
-    state: string,
-    zip: string,
-    country: string
+    name: string,
+    label: string,
+    value: string
+}
+
+export interface onReceiveFormList {
+    form: OrderFieldsForm[]
 }
 
 export interface onReceiveOrderProps {
-    formLabels: OrderFieldsForm,
-    form: OrderFieldsForm,
-    onChange: (updated: OrderFieldsForm) => void;
+    form: OrderFieldsForm[],
+    onChange?: (updated: OrderFieldsForm[]) => void,
+    readOnly: boolean,
 }
+
+export type HandleFormChange = (updatedForm: OrderFieldsForm[]) => void;

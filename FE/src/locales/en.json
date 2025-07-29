@@ -56,6 +56,7 @@
     "cartempty": "Your cart is empty.",
     "removeitem": "Remove",
     "updatecart": "Update Cart",
+    "subtotal": "Sub Total",
     "checkout": "Proceed to Checkout",
 
     "mylisttitle": "Pet Favorites",
@@ -72,5 +73,11 @@
 
     "order": "Order",
     "orderdate": "Order Date",
-    "confirmordercmt": "Please confirm the information below and then press continue..."
+    "confirmordercmt": "Please confirm the information below and then press continue...",
+    "confirm": "Confirm",
+
+    "myorder": "My Orders",
+    "orderid": "Order ID",
+    "date": "Date",
+    "totalprice": "Total Price"
 }

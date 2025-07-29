@@ -18,3 +18,5 @@ export const GOTO_ITEM = '/item?itemId='
 export const GOTO_ORDER = '/newOrder';
 export const GOTO_SHIP = '/shipOrder';
 export const GOTO_CONFIRM = '/confirmOrder';
+export const GOTO_ORDER_LIST = '/orderList';
+export const GOTO_ORDER_DETAILS='/viewOrder?orderId=';
